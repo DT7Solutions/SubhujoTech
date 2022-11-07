@@ -2100,8 +2100,8 @@ footer .copyright p a {
   color: #ff695f;
 }
 
-/* 
 
-.footer{
 
+.primary{
+  background: linear-gradient(90deg, rgba(222,144,214,1) 61%, rgba(236,170,183,1) 91%);
 }
