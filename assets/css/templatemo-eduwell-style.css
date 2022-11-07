@@ -1917,3 +1917,9 @@ body {
 .customers{
   background-image: url(../images/cta-bg.png);
 }
+
+/*servuces*/
+.card{
+  width:320px;
+  height:600px;
+}
