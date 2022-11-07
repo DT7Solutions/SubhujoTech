@@ -232,6 +232,7 @@ section {
 
 .section-heading h4 em {
   font-style: normal;
+  font-size: 5px !important;
   color: #dc8cdb;
 }
 
