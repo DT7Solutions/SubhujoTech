@@ -232,7 +232,7 @@ section {
 
 .section-heading h4 em {
   font-style: normal;
-  font-size: 5px !important;
+  /* font-size: 5px !important; */
   color: #dc8cdb;
 }
 
@@ -755,6 +755,7 @@ services
   padding: 50px 30px;
   margin: 15px;
   transition: all .3s;
+  width: 100%;
 }
 
 .services .item:hover {
@@ -775,10 +776,32 @@ services
   font-size: 20px;
   font-weight: 800;
 }
-
+.services .item p{
+  text-align: left;
+}
+.services .item .btn{
+  margin-top: 25px !important;
+  background-color: #dc8cdb;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+.services .item .btn:focus {
+  outline: none !important;
+}
+.services .item .alien-btn{
+  margin-top: 43px !important;
+  background-color: #dc8cdb;
+}
+.services .item .alien-btn2{
+  margin-top: 100px !important;
+  background-color: #dc8cdb;
+}
 .services .owl-dots {
   text-align: center;
   margin-top: 30px;
+  display: none;
+
 }
 
 .services .owl-dots .owl-dot {
@@ -811,7 +834,7 @@ section.our-courses .section-heading p {
 section.our-courses:before {
   position: absolute;
   content: '';
-  background-image: url(../images/our-courses-left-dec.png);
+  /* background-image: url(../images/our-courses-left-dec.png); */
   left: 45px;
   top: -140px;
   width: 291px;
@@ -822,7 +845,7 @@ section.our-courses:before {
 section.our-courses:after {
   position: absolute;
   content: '';
-  background-image: url(../images/our-courses-right-dec.png);
+  /* background-image: url(../images/our-courses-right-dec.png); */
   right: 45px;
   top: -140px;
   width: 291px;
@@ -1922,4 +1945,163 @@ body {
 .card{
   width:320px;
   height:600px;
+}
+
+
+
+
+
+
+/* 
+---------------------------------------------
+Footer Style
+--------------------------------------------- 
+*/
+.footer{
+  margin-top: 25px !important;
+padding-top: 40px !important;
+
+}
+.footer-dec {
+  width: 100%;
+  margin-top: 160px;
+}
+
+footer {
+  margin-top: -50px;
+  z-index: 2;
+  position: relative;
+  color: whitesmoke;
+  background: linear-gradient(90deg, rgba(222,144,214,1) 61%, rgba(236,170,183,1) 91%);
+}
+
+.footer ul li a{
+  color: whitesmoke !important;
+  font-weight: 600;
+}
+.footer p{
+  color: whitesmoke !important;
+  font-weight: 600;
+}
+.footer .email{
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+footer .footer-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+}
+
+footer .about .logo img {
+  width: 160px;
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+footer .about a {
+  color: #afafaf;
+  font-weight: 300;
+}
+
+footer .about ul {
+  margin-top: 20px;
+}
+
+footer .about ul li {
+  display: inline-block !important;
+  margin-right: 5px;
+}
+
+footer .about ul li a {
+  width: 32px;
+  height: 32px;
+  background-color: #03a4ed;
+  color: #fff !important;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  line-height: 32px;
+  font-size: 15px;
+}
+
+footer .about ul li a:hover {
+  background-color: #ff695f;
+}
+
+footer .footer-item ul li {
+  display: block;
+  margin-bottom: 12px;
+}
+
+footer .footer-item ul li:last-child {
+  margin-bottom: 0px;
+}
+
+footer .footer-item ul li a {
+  font-size: 15px;
+  color: #afafaf;
+  transition: all .3s;
+}
+
+footer .footer-item ul li a:hover {
+  color: #ff695f;
+}
+
+footer .footer-item p {
+  font-size: 15px;
+  color: #afafaf;
+  margin-top: -5px;
+}
+
+footer .footer-item form {
+  background-color: #03a4ed;
+  height: 46px;
+  border-radius: 23px;
+  position: relative;
+  margin-top: 15px;
+}
+
+footer .footer-item form input {
+  line-height: 46px;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  padding: 0px 20px;
+  outline: none;
+}
+
+footer .footer-item form input::placeholder {
+  color: #fff;
+}
+
+footer .footer-item form button {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+footer .copyright p {
+  text-align: center;
+  border-top: 1px solid #eee;
+  color: #afafaf;
+  margin-top: 50px;
+  padding: 20px 0px;
+  font-weight: 300;
+}
+
+footer .copyright p a {
+  color: #ff695f;
+}
+
+/* 
+
+.footer{
+
 }
