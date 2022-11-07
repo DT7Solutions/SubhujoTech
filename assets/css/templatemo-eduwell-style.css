@@ -1913,4 +1913,7 @@ body {
 
 
 
-
+/* customers*/
+.customers{
+  background-image: url(../images/cta-bg.png);
+}
